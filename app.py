@@ -14,8 +14,7 @@ st.set_page_config(page_title="AutoServis Pro – dopyt", page_icon="🔧")
 # Sem doplňte URL vášho Make.com webhooku.
 # Odporúčanie: nastavte ju ako premennú prostredia alebo v .streamlit/secrets.toml
 # (kľúč MAKE_WEBHOOK_URL), aby nebola priamo v kóde.
-WEBHOOK_URL_PREDVOLENA = "https://hook.eu1.make.com/VASA_WEBHOOK_URL"
-
+WEBHOOK_URL_PREDVOLENA = https://hook.eu1.make.com/1nzc4cm97lmstgqwpbt7i5h5cbn68f3u
 
 def nacitaj_webhook_url() -> str:
     try:
